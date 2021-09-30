@@ -1,0 +1,27 @@
+$main-header: flex;
+.main-header {
+  display: $main-header;
+  background-image: url(../Header/HeaderImages/headerbackground.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 155px;
+
+  .img {
+    width: 100%;
+  }
+}
+
+.left-div {
+  width: 50%;
+  margin-left: 130px;
+  div {
+    p {
+      font-size: 40px;
+      font-weight: bold;
+      color: #092772;
+    }
+  }
+}
+.right-div {
+  width: 50%;
+}

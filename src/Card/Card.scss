@@ -1,0 +1,57 @@
+.card-main-div {
+  img {
+    position: absolute;
+    left: -150px;
+    top: 600px;
+    z-index: -1;
+  }
+  .car-header {
+    text-align: center;
+    margin-top: 200px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.card-column {
+  float: left;
+  width: 33.33%;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.card-row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.card-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .card-column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.L-card {
+  padding: 16px;
+  text-align: center;
+  border: 8px solid #f8f8f8;
+  background-color: white;
+}
+hr.solid {
+  border-top: 3px solid #f0c331;
+  margin-top: 70px;
+}
