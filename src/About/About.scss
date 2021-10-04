@@ -23,34 +23,237 @@
     }
   }
 }
+@media screen and (max-width: 600px) {
+  .banner-div {
+    height: 100%;
+    background-color: #f8f8f8;
+    margin: 0px 100px 0px 100px;
+    font-size: 10px;
 
-#background {
-  margin-top: 0px;
-  background-color: #092772;
-  width: 100%;
+    margin-right: 100px;
 
-  img {
-    height: 500px;
-    width: 500px;
-    margin: 250px;
-  }
-
-  .upper-div {
-    color: white;
-    position: absolute;
-    left: 0px;
-    top: 1600px;
-    z-index: 1;
-  }
-  .details-content {
-    display: flex;
-    width: 100%;
-    .left-content {
-      width: 340px;
-      margin: 110px;
+    .banner {
+      display: flex;
+    }
+    .banner-left-div {
+      width: 65%;
+      padding: 30px;
+    }
+    .banner-right-div {
+      img {
+        height: 100px;
+        padding: 15px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+      }
     }
   }
-  .mission-div {
-    text-align: center;
+}
+
+#background {
+  width: 100%;
+  margin-top: 0px;
+  background-color: #092772;
+
+  background-image: url(../About/AboutImages/aboutback.svg);
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+
+  background-position: 40% 50%;
+  background-position-x: 250px;
+  background-position-y: 190px;
+  .about-firm {
+    display: flex;
+  }
+
+  #ab-left-div {
+    width: 50%;
+    font-size: 15px;
+    padding: 100px;
+  }
+  #ab-right-div {
+    background-image: url(../About/AboutImages/calback.svg),
+      url(../About/AboutImages/equal.svg);
+    background-repeat: no-repeat;
+    background-position-x: 300px, 250px;
+    background-position-y: 20px, 400px;
+    background-origin: content-box;
+    padding: 50px;
+
+    width: 50%;
+
+    .calculator {
+      img {
+        width: 100%;
+        height: 500px;
+        margin: 20px 0 0 0;
+        text-align: center;
+        padding: 20px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  #background {
+    margin-top: 0px;
+    background-color: #092772;
+
+    background-image: url(../About/AboutImages/aboutback.svg);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: 50% 50%;
+    background-position: center;
+    padding: 100px 0px 100px 0px;
+
+    #ab-left-div {
+      padding: 30px;
+      width: 500px;
+      font-size: 15px;
+      margin: 0px;
+      h1 {
+        font-size: 30px;
+      }
+    }
+
+    #ab-right-div {
+      width: 50%;
+      font-size: 15px;
+
+      .calculator {
+        img {
+          width: 200px;
+          height: 200px;
+          padding: auto;
+          margin: 0px;
+        }
+      }
+    }
+  }
+}
+
+.mission {
+  margin: auto;
+  text-align: center;
+  color: white;
+  div {
+    p {
+      margin: 0px 300px 0px 300px;
+    }
+  }
+}
+
+.mission-logo {
+  display: flex;
+  margin: 0px 150px 0px 150px;
+  text-align: center;
+}
+.mission-button {
+  margin: auto;
+  text-align: center;
+}
+.meet {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  top: 90px;
+  background-color: #2b8fe5;
+  margin: 50px;
+  .left-meet {
+    width: 30%;
+    img {
+      height: 200px;
+    }
+  }
+}
+
+.blog-div {
+  margin-top: 70px;
+  background-image: url(../Card/CardImages/Cardbackground.svg);
+  background-repeat: no-repeat;
+  background-position-x: 250px;
+  background-size: 300px 300px;
+  text-align: center;
+
+  .blog {
+    display: flex;
+
+    padding: 100px 50px 0px 50px;
+
+    .blog-left {
+      width: 10%;
+      img {
+        height: 300px;
+      }
+    }
+    .blog-left-one {
+      width: 30%;
+    }
+    .blog-right-one {
+      width: 50%;
+      position: relative;
+
+      color: white;
+      img {
+        width: 100%;
+        height: 300px;
+      }
+      .bottom-left {
+        padding-left: 20px;
+        width: 40%;
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+      }
+    }
+    .blog-right {
+      width: 10%;
+      img {
+        height: 300px;
+      }
+    }
+  }
+}
+.bleow-blog-div {
+  width: 10%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+
+  color: white;
+  img {
+    width: 300px;
+  }
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+}
+
+.contact-back {
+  background-image: url(../About/ContactImg/contactBack.svg);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+
+  div {
+    padding: 30px;
+    margin: 0px 48px 0px 48px;
+    hr.solid {
+      border-top: 3px solid #2b8fe5;
+    }
+  }
+}
+
+.contact-us {
+  text-align: center;
+  padding: 150px;
+
+  div {
+    p {
+      width: 100%;
+    }
   }
 }

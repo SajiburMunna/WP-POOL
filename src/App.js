@@ -4,6 +4,7 @@ import Card from "./Card/Card";
 import Header from "./Header/Header";
 import NavBar from "./NavBar/NavBar";
 import "./App.css";
+import Footer from "./Footer/Footer";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Header></Header>
       <Card></Card>
       <About></About>
+      <Footer></Footer>
     </div>
   );
 };

@@ -25,3 +25,34 @@ $main-header: flex;
 .right-div {
   width: 50%;
 }
+@media only screen and (max-width: 600px) {
+  .left-div {
+    margin-left: 30px;
+    .img {
+      width: 400px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+    }
+    div {
+      p {
+        font-size: 10px;
+        font-weight: bold;
+        color: red;
+      }
+    }
+  }
+
+  .main-header {
+    display: $main-header;
+    background-image: url(../Header/HeaderImages/headerbackground.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 50px;
+
+    .img {
+      width: 100%;
+    }
+  }
+}

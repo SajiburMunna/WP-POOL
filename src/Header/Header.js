@@ -3,19 +3,23 @@ import "./Header.scss";
 import headerright from "./HeaderImages/header-right.svg";
 const Header = () => {
   return (
-    <div className="main-header">
-      <div className="left-div">
-        <span>What is Lorem Ipsum?</span>
-        <div>
-          <p>Lorem Ipsum is simply dummy text of the printing and</p>
-        </div>
+    <>
+      <div className="main">
+        <div className="main-header">
+          <div className="left-div">
+            <span>What is Lorem Ipsum?</span>
+            <div>
+              <p>Lorem Ipsum is simply dummy text of the printing and</p>
+            </div>
 
-        <button>Learn About</button>
+            <button>Learn About</button>
+          </div>
+          <div className="right-div">
+            <img className="img" src={headerright} alt="" />
+          </div>
+        </div>
       </div>
-      <div className="right-div">
-        <img className="img" src={headerright} alt="" />
-      </div>
-    </div>
+    </>
   );
 };
 
