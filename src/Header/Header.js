@@ -12,7 +12,9 @@ const Header = () => {
               <p>Lorem Ipsum is simply dummy text of the printing and</p>
             </div>
 
-            <button>Learn About</button>
+            <button type="button" class="btn btn-outline-primary">
+              Learn About
+            </button>
           </div>
           <div className="right-div">
             <img className="img" src={headerright} alt="" />

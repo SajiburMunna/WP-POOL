@@ -82,7 +82,9 @@ const About = () => {
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the
             </p>
-            <button>Hello</button>
+            <button type="button" class="btn btn-outline-primary">
+              Hello
+            </button>
 
             <div>
               <img
@@ -123,7 +125,9 @@ const About = () => {
           ))}
         </div>
         <div className="mission-button">
-          <button>Meet and Values</button>
+          <button type="button" class="btn btn-outline-primary">
+            Meet and Values
+          </button>
         </div>
 
         <br />
@@ -138,7 +142,13 @@ const About = () => {
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy lorem dolor.
             </p>
-            <button>Meet The Team</button>
+            <button
+              style={{ color: "black", backgroundColor: "wheat" }}
+              type="button"
+              class="btn btn-outline-primary"
+            >
+              Meet The Team
+            </button>
           </div>
         </div>
       </div>
@@ -155,7 +165,9 @@ const About = () => {
             <p>
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             </p>
-            <button> Blog</button>
+            <button type="button" class="btn btn-outline-primary">
+              Blog
+            </button>
           </div>
 
           <div className="blog-right-one">
@@ -199,7 +211,9 @@ const About = () => {
             </p>
           </div>
 
-          <button>Contact Us</button>
+          <button type="button" class="btn btn-outline-primary">
+            Contact Us
+          </button>
         </div>
       </div>
     </>

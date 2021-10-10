@@ -7,11 +7,11 @@ const NavBar = () => {
     <>
       <div className="nav">
         <div className="logo">
-          <img src={logo} alt="" />
+          <img style={{ width: "200px", margin: "20px" }} src={logo} alt="" />
         </div>
         <div className="nav-div">
           <nav>
-            <div>
+            <div style={{ fontSize: "10px" }}>
               <ul>
                 <li>
                   <a href="##">call:01780451235</a>
